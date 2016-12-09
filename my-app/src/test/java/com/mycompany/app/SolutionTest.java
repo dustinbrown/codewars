@@ -18,6 +18,10 @@ public class SolutionTest {
     public void testNormalCondition() {
         assertEquals(9, Solution.solveSuperMarketQueue(new int[] { 2, 2, 3, 3, 4, 4 }, 2));
     }
+    @Test
+    public void testRandom() {
+        assertEquals(15, Solution.solveSuperMarketQueue(new int[] {3,2,3}, 6));
+    }
 
     @Test
     public void testEmptyArray() {
